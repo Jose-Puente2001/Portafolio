@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="utf-8">
-    <title>Portafolio</title>
+    <title>@yield('title')</title>
     <meta name="description" content="">
     <meta name="author" content="">
      <!-- mobile -->
@@ -26,9 +25,9 @@
         <div class="row s-header__nav-wrap">
             <nav class="s-header__nav">
                 <ul>
-                    <li class="current"><a class="smoothscroll" href="#hero">Inicio</a></li>
-                    <li><a class="smoothscroll" href="#resume">Portafolio</a></li>
-                    <li><a class="smoothscroll" href="#portfolio">Contactos</a></li>
+                    <li class="current"><a class="smoothscroll" href="/">Inicio</a></li>
+                    <li><a class="smoothscroll" href="/portafolio">Portafolio</a></li>
+                    <li><a class="smoothscroll" href="/contactos">Contactos</a></li>
                 </ul>
             </nav>
         </div>

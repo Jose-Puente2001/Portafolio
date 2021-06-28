@@ -11,13 +11,13 @@ class PageController extends Controller
     return view('home');  
   }
    
-  public function About()
+  public function Portafolio()
   {
-     return view('about');
+     return view('portafolio');
   }
 
-  public function Contact()
+  public function Contactos()
   {
-    return view('contact');
+    return view('contacto');
   }
 }

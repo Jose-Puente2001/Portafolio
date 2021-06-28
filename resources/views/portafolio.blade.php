@@ -1,10 +1,13 @@
 @extends('layout')
 
 @section('title')
-   contact
+ 
+ Portafolio
+
 @endsection
 
 @section('content')
-<h1>contact</h1>
+
+<h3>Portafolio</h3>
 
 @endsection

@@ -1,13 +1,11 @@
 @extends('layout')
 
 @section('title')
-  about
+  Contactos
 @endsection
 
 @section('content')
-<h1> about </h1>
+
+<h3>contactos</h3>
+
 @endsection
-
-
-
-
